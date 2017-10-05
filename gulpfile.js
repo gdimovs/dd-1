@@ -14,17 +14,6 @@ gulp.task('clean', () => {
         .pipe(clean());
 });
 
-gulp.task('compile:app', () => {
-    return gulp.src([
-            './app/**/*.js',
-        ])
-        .pipe(strip())
-        .pipe(babel({
-            presets: ['es2015'],
-        }))
-        .pipe(gulp.dest('./build/app'));
-});
-
 gulp.task('compile:server', () => {
     return gulp.src([
             './server/**/*.js',
@@ -52,7 +41,7 @@ gulp.task('compile:sass', () => {
         .pipe(gulp.dest('./build/public/css'));
 });
 
-gulp.task('compile', ['compile:app', 'compile:server', 'compile:public', 'compile:sass']);
+gulp.task('compile', ['compile:server', 'compile:public', 'compile:sass']);
 
 gulp.task('copy:app', () => {
     return gulp
