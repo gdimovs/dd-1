@@ -1,0 +1,53 @@
+{
+  "name": "daily-discovery",
+  "version": "1.0.0",
+  "description": "Find Property, Jobs, Cars and much much more - Kiwi Classifieds",
+  "main": "./app/scripts/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node build/server/server.js"
+  },
+  "keywords": [
+    "Javascript",
+    "Applications"
+  ],
+  "author": "Team Kiwi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-select": "^1.12.2",
+    "cookie-parser": "^1.4.3",
+    "core-js": "^2.4.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.5",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sync": "^0.1.4",
+    "handlebars": "^4.0.6",
+    "handlebars-paginate": "^0.1.0",
+    "jquery": "^1.11.3",
+    "jquery-ui-dist": "^1.12.0",
+    "lodash": "^4.17.4",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^0.16.2",
+    "navigo": "^4.6.2",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "systemjs": "^0.20.12",
+    "systemjs-plugin-babel": "0.0.21",
+    "toastr": "^2.1.2",
+    "underscore-db": "^0.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-comments": "^2.5.1"
+  }
+}
