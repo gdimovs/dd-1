@@ -1,4 +1,5 @@
 @font-face {
     font-family: 'LeagueGothic';
-    src: url('../fonts/League_Gothic.otf');
+    src: url('../fonts/LeagueGothic.woff') format('woff'),
+        url('../fonts/LeagueGothic.ttf') format('truetype');
 }
