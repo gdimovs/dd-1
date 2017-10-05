@@ -5,6 +5,8 @@
 // Variables
 @import 'variables';
 
+// General
+
 .hidden {
     display: none;
 }
@@ -104,121 +106,6 @@ li {
     padding: 5rem;
 }
 
-/* 
-* BEGIN Overriding Toastr styles 
-* ----------------------------
-*/
-
-.toast-success {
-    background-color: $brand-secondary-color;
-}
-
-.toast-error {
-    background-color: $brand-primary-color;
-}
-
-/* 
-* END Overriding Toastr styles 
-* ----------------------------
-*/
-
-
-/* 
-* BEGIN Overriding Bootstrap styles 
-* ----------------------------
-*/
-
-.btn-primary {
-    color: #fcfbf7;
-    background-color: #d26c07;
-    background-image: none;
-    border-color: #b95f06;
-    border-bottom: 3px solid #bb5f01;
-}
-
-.btn {
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.btn-success {
-    color: $base-color;
-    background-color: #5f9ea0;
-    border-color: #6495ed;
-}
-
-.btn-success:hover,
-.btn-success.focus,
-.btn-success:focus,
-.btn-success.active,
-.btn-success:active,
-.btn-success.active.focus,
-.btn-success.active:focus,
-.btn-success:active.focus,
-.btn-success:active:focus,
-.btn-success:active:hover,
-.btn-success.active:hover,
-.open > .dropdown-toggle.btn-success.focus,
-.open > .dropdown-toggle.btn-success:focus,
-.open > .dropdown-toggle.btn-success:hover,
-.open > .dropdown-toggle.btn-success,
-.open > .dropdown-toggle.btn-success {
-    color: $base-color;
-    background-color: #4a8a8c;
-    border-color: #3a5990;
-}
-
-.bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) {
-    width: 180px;
-}
-
-/* 
-* END Overriding Bootstrap styles 
-* ----------------------------
-*/
-
-/*
-* BEGIN Select fix for Firefox
-* ------------------------------
-*/
-
-select {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-    background: #eee url($select-arrow) no-repeat center right;
-    text-indent: 0.01px;
-    text-overflow: '';
-}
-
-select#select-post-category {
-    background: url($select-arrow) no-repeat center right !important;
-}
-
-/*
-* END Select fix for Firefox
-* -----------------------------
-*/
-
-/*
- * BEGIN Row with equal height columns
- * --------------------------------------------------
- */
-.eq-height {
-    display: -webkit-box !important;
-    display: -webkit-flex !important;
-    display: -ms-flexbox !important;
-    display:         flex !important;
-    flex-wrap: wrap;
-}
-
-/*
- * END Row with equal height columns
- * --------------------------------------------------
- */
-
-
-/*----------------------------------*/
-
 .row.footer-container {
     color: #d1d1d1;
     line-height: 1.9rem;
@@ -241,14 +128,6 @@ select#select-post-category {
     background: none;
     padding: 1rem;
 }
-
-/*#compact-posts-container > article:first-child {
-    padding-left: 0;
-}
-
-#compact-posts-container > article:last-child {
-    padding-right: 0;
-}*/
 
 .category-posts-container {
     padding-right: 0;
@@ -968,6 +847,117 @@ aside a {
 }
 
 /* 
+* BEGIN Overriding Toastr styles 
+* ----------------------------
+*/
+
+.toast-success {
+    background-color: $brand-secondary-color;
+}
+
+.toast-error {
+    background-color: $brand-primary-color;
+}
+
+/* 
+* END Overriding Toastr styles 
+* ----------------------------
+*/
+
+/* 
+* BEGIN Overriding Bootstrap styles 
+* ----------------------------
+*/
+
+.btn-primary {
+    color: #fcfbf7;
+    background-color: #d26c07;
+    background-image: none;
+    border-color: #b95f06;
+    border-bottom: 3px solid #bb5f01;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-success {
+    color: $base-color;
+    background-color: #5f9ea0;
+    border-color: #6495ed;
+}
+
+.btn-success:hover,
+.btn-success.focus,
+.btn-success:focus,
+.btn-success.active,
+.btn-success:active,
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success.focus,
+.open > .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:hover,
+.open > .dropdown-toggle.btn-success,
+.open > .dropdown-toggle.btn-success {
+    color: $base-color;
+    background-color: #4a8a8c;
+    border-color: #3a5990;
+}
+
+.bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) {
+    width: 180px;
+}
+
+/* 
+* END Overriding Bootstrap styles 
+* ----------------------------
+*/
+
+/*
+* BEGIN Select fix for Firefox
+* ------------------------------
+*/
+
+select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+    background: #eee url($select-arrow) no-repeat center right;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+select#select-post-category {
+    background: url($select-arrow) no-repeat center right !important;
+}
+
+/*
+* END Select fix for Firefox
+* -----------------------------
+*/
+
+/*
+ * BEGIN Row with equal height columns
+ * --------------------------------------------------
+ */
+.eq-height {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display:         flex !important;
+    flex-wrap: wrap;
+}
+
+/*
+ * END Row with equal height columns
+ * --------------------------------------------------
+ */
+
+/* 
  * BEGIN Responsive CSS
  * --------------------------------------------
  */
@@ -1176,4 +1166,3 @@ aside a {
 * END Responsive CSS
 * --------------------------------------------
 */
-
