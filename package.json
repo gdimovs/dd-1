@@ -30,7 +30,7 @@
     "gulp-babel": "^7.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-sass": "^3.1.0",
-    "gulp-strip-comments": "^2.5.1"
+    "gulp-strip-comments": "^2.5.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-sync": "^0.1.4",
     "handlebars": "^4.0.6",
