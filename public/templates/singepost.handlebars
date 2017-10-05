@@ -49,16 +49,17 @@
                 <div class="single-post-share-icons-container">
                     <h3>Share this</h3>
                     <span>
-                        <a target="popup" onclick="window.open('http://twitter.com/intent/tweet?status={{result.post.title}}+https://raw.githack.com/KirilVelichkov/Newsletter-Client/master/dist/index.html#/article/{{article._id}}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;"
-                            href="http://twitter.com/intent/tweet?status={{result.post.title}}+https://raw.githack.com/KirilVelichkov/Newsletter-Client/master/dist/index.html/article/{{article._id}}">
+                        <a target="popup" onclick="window.open('http://twitter.com/intent/tweet?status={{result.post.title}}+https%3A%2F%2Fdaily--d.herokuapp.com%2F%23%2Fposts%2F{{result.post.id}}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;"
+                            href="http://twitter.com/intent/tweet?status={{result.post.title}}+https%3A%2F%2Fdaily--d.herokuapp.com%2F%23%2Fposts%2F{{result.post.id}}">
                         <img src="./images/twitter.png" alt="twitter icon">
                         </a>
                     </span>
 
                     <span>
-                        <a target="popup" onclick="window.open('http://www.facebook.com/share.php?u=https://raw.githack.com/KirilVelichkov/Newsletter-Client/master/dist/index.html#/article/{{article._id}}&title={{article.title}}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;"
-                            href="http://www.facebook.com/share.php?u=https://raw.githack.com/KirilVelichkov/Newsletter-Client/master/dist/index.html/article/{{article._id}}&title={{article.title}}">
-                        <img src="./images/facebook.png" alt="facebook icon">
+                        <a id="share-btn" title="Share on Facebook"
+                        href="https://www.facebook.com/sharer.php?caption={{result.post.title}}&description={{result.post.content}}&u=https%3A%2F%2Fdaily--d.herokuapp.com%2F%23%2Fposts%2F{{result.post.id}}&picture=https://daily--d.herokuapp.com/images/logo.png"
+                        target="_blank">
+                            <img src="./images/facebook.png" alt="facebook icon">
                         </a>
                     </span>
 
