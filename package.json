@@ -1,19 +1,17 @@
 {
   "name": "daily-discovery",
   "version": "1.0.0",
-  "description": "Find Property, Jobs, Cars and much much more - Kiwi Classifieds",
-  "main": "./app/scripts/app.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "Reading Daily Discovery blog you will be better informed.",
+  "main": "./app/app.js",
   "scripts": {
-    "start": "node build/server/server.js"
+    "start": "gulp serve"
   },
   "keywords": [
     "Javascript",
-    "Applications"
+    "SPA",
+    "Front-End"
   ],
-  "author": "Team Kiwi",
+  "author": "Emil Dimitrov",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -47,7 +45,5 @@
     "systemjs-plugin-babel": "0.0.21",
     "toastr": "^2.1.2",
     "underscore-db": "^0.12.2"
-  },
-  "devDependencies": {
   }
 }
