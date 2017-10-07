@@ -55,7 +55,7 @@ app.get('/api/posts/:id', postsController.get);
 app.get('/api/posts/search/:searchTerm', postsController.getSearchPosts);
 app.get('/api/posts/related/:categoryId/:postId', postsController.getRelated);
 app.post('/api/comments/:id', postsController.postComment);
-app.post('/api/comments/reply/:id', postsController.postReplyComment)
+app.post('/api/comments/reply/:id', postsController.postReplyComment);
 app.post('/api/posts/edit/:id', postsController.editPost);
 app.post('/api/posts/delete/:id', postsController.deletePost);
 
