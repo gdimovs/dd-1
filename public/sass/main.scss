@@ -20,6 +20,11 @@ body {
     color: $body-font-color;
 }
 
+header {
+    width: 95%;
+    margin: 0 auto;
+}
+
 footer {
     background: url(../images/footer-bg.png);
     background-repeat: repeat-y;
@@ -268,12 +273,12 @@ img {
 
 .navbar-collapse {
     padding-right: 2.5rem;
-    padding-left: 1.7rem;
+    padding-left: 1.5rem;
 }
 
 .logo-container {
     max-width: 500px;
-    padding: 5rem 0 1.5rem 4.6rem;
+    padding: 5rem 0 1.5rem 1rem;
 }
 
 .navbar-right {
@@ -946,6 +951,12 @@ h3 {
     padding: 1rem;
 }
 
+.container-fluid > .navbar-collapse,
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 /* 
 * END Overriding Bootstrap styles 
 * ----------------------------
@@ -1019,9 +1030,6 @@ select#select-post-category {
         position: relative;
         top: -4px;
     }
-    .container-fluid>.navbar-collapse {
-        margin-left: 1rem;
-    }
     #search-box-form {
         margin-top: 0;
     }
@@ -1045,12 +1053,6 @@ select#select-post-category {
 
 // col-lg
 @media (max-width: 1200px) {
-    .logo-container {
-        padding: 3.6rem;
-    }
-    .container-fluid {
-        padding-right: 2.5rem;
-    }
     .single-post-main {
         padding-top: 4rem;
     }
