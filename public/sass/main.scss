@@ -140,8 +140,8 @@ img {
 }
 
 .category-posts-container {
-    padding-right: 0;
-    padding-left: 0.5rem;
+    padding-right: 0 !important;
+    padding-left: 0.5rem !important;
 }
 
 .compact-post-container {
@@ -474,7 +474,7 @@ aside a {
 }
 
 .sidebar-widgets-container {
-    padding-left: 1rem;
+    padding-left: 1rem !important;
 }
 
 .recent-comments-container,
