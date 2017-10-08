@@ -241,7 +241,7 @@ img {
 }
 
 .compact-post-content-divider {
-    border-bottom: 1px dotted $border-dotted-color-light;
+    border-bottom: 0.1rem dotted $border-dotted-color-light;
     left: 1%;
     position: absolute;
     width: 98%;
@@ -500,7 +500,7 @@ aside a {
 }
 
 .sidebar-widget-content-divider {
-    border-bottom: 1px dotted $border-dotted-color-dark;
+    border-bottom: 0.1rem dotted $border-dotted-color-dark;
     left: 1%;
     position: absolute;
     width: 98%;
@@ -566,7 +566,7 @@ aside a {
 } 
 
 .comments-count {
-    border-bottom: 1px dotted $border-dotted-color-light;
+    border-bottom: 0.1rem dotted $border-dotted-color-light;
     color: $brand-primary-color;
     font-family: $primary-title-font;
     font-size: 3.2rem;
@@ -663,7 +663,7 @@ aside a {
 }
 
 .single-post-author {
-    border-bottom: 1px dotted $border-dotted-color-light;
+    border-bottom: 0.1rem dotted $border-dotted-color-light;
     color: $single-post-title-dark;
     font-family: $primary-title-font;
     font-size: 1.8rem;
@@ -677,7 +677,7 @@ aside a {
 }
 
 .comments-list-item {
-    border-bottom: 1px dotted;
+    border-bottom: 0.1rem dotted;
     margin-bottom: 2rem;
 }
 
@@ -745,7 +745,7 @@ aside a {
 }
 
 .nav-tabs {
-    border-bottom: 1px dotted $border-dotted-color-dark;
+    border-bottom: 0.1rem dotted $border-dotted-color-dark;
 }
 
 .nav-tabs .tab {
@@ -776,7 +776,7 @@ aside a {
 }
 
 .tab + .tab {
-    border-left: 1px dotted $border-dotted-color-dark;
+    border-left: 0.1rem dotted $border-dotted-color-dark;
 }
 
 .nav-tabs > li > a {
@@ -785,7 +785,7 @@ aside a {
 }
 
 .tab-content article {
-    border-bottom: 1px dotted $border-dotted-color-dark;
+    border-bottom: 0.1rem dotted $border-dotted-color-dark;
     padding: 1rem;
 }
 
