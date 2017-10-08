@@ -366,6 +366,10 @@ ul.dropdown-menu {
     box-shadow: 2px 2px 7px $dropdown-background-color;
 }
 
+#search-box-form {
+    margin-top: 0.4rem;
+}
+
 #search-box {
     background: transparent url('../images/magnifiyng-glass.png') no-repeat scroll 100%;
     background-color: #1d1e1e;
@@ -1042,6 +1046,9 @@ select#select-post-category {
 @media (min-width: 2201px) {
     html {
         font-size: 20px;
+    }
+    #hello-user {
+        position: initial;
     }
 }
 
