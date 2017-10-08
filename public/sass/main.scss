@@ -1020,6 +1020,10 @@ select#select-post-category {
     .compact-post-image {
         max-height: 12.5rem;
     }
+    #hello-user {
+        position: relative;
+        top: -4px;
+    }
 }
 
 @media (min-width: 1701px) {
@@ -1029,10 +1033,6 @@ select#select-post-category {
     .sidebar-widget-links-container a::before {
         content: '»';
         padding-right: 1.4rem;
-    }
-    #hello-user {
-        position: relative;
-        top: -4px;
     }
     #search-box-form {
         margin-top: 0;
